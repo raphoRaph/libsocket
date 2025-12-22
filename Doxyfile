@@ -1,0 +1,11 @@
+PROJECT_NAME           = "libsocket"
+PROJECT_BRIEF          = "A C++17 UDP socket wrapper library"
+OUTPUT_DIRECTORY       = docs
+INPUT                  = include src
+RECURSIVE              = YES
+Use_MDFILE_AS_MAINPAGE = README.md
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+QUIET                  = YES
